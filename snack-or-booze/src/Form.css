@@ -1,0 +1,56 @@
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+    height: calc(100vh - 56px); /* router view - navbar height */
+    overflow: scroll;
+    color: white;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Set the first row to auto to accommodate the label height */
+    gap: 5px;
+    color: black;
+    justify-content: center;
+    
+  }
+
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+  }
+.description {
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(173, 202, 202);
+}
+.name {
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(173, 202, 202);
+}
+.recipe {
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(173, 202, 202);
+}
+.serve {
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(173, 202, 202);
+}
